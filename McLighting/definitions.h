@@ -21,6 +21,10 @@ MODE mode = RAINBOW;   // Standard mode that is active when software starts
 int ws2812fx_speed = 10;   // Global variable for storing the delay between color changes --> smaller == faster
 int brightness = 192;       // Global variable for storing the brightness (255 == 100%)
 
+#define LED_COUNT 16
+#define LED_DATA_PIN 12
+#define LED_CLOCK_PIN 14
+
 int ws2812fx_mode = 0;      // Helper variable to set WS2812FX modes
 
 bool exit_func = false;     // Global helper variable to get out of the color modes when mode changes

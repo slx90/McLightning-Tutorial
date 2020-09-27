@@ -34,8 +34,10 @@ WebSocketsServer webSocket = WebSocketsServer(81);
 // Load libraries / Instanciate WS2812FX library
 // ***************************************************************************
 // https://github.com/kitesurfer1404/WS2812FX
-#include <WS2812FX.h>
-WS2812FX strip = WS2812FX(NUMLEDS, PIN, NEO_GRB + NEO_KHZ800);
+//#include <WS2812FX.h>
+#include <WS2801FX.h>
+//WS2812FX strip = WS2812FX(NUMLEDS, PIN, NEO_GRB + NEO_KHZ800);
+WS2801FX strip  = WS2801FX(LED_COUNT, LED_DATA_PIN, LED_CLOCK_PIN, WS2801_RBG);
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
