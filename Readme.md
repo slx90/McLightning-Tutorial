@@ -16,4 +16,5 @@ His showcase Video: https://www.youtube.com/watch?v=faIIC5cTiiQ&fbclid=IwAR13YNa
 - Arduino **ESP8266** https://github.com/esp8266/Arduino
 - Tzapu **WifiManager** https://github.com/tzapu/WiFiManager
 - Links2004 **ArduinoWebSockets** https://github.com/Links2004/arduinoWebSockets
-- Kitesurfer **WS2812FX** https://github.com/kitesurfer1404/WS2812FX
+~~- Kitesurfer **WS2812FX** https://github.com/kitesurfer1404/WS2812FX~~
+- r41d **WS2801FX** https://github.com/r41d/WS2801FX
